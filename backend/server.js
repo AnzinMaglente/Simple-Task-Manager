@@ -1,6 +1,7 @@
 // Import the built-in http module
 const express = require('express');
 const path = require("path");
+const mongoose = require('mongoose');
 
 // Set the hostname and port
 const app = express();
